@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://heningwang.github.io/my_homepage/about/index.html</loc>
+    
+    <lastmod>2024-04-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heningwang.github.io/my_homepage/now/index.html</loc>
+    
+    <lastmod>2024-04-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://heningwang.github.io/my_homepage/homepage/index.html</loc>
     
     <lastmod>2024-04-22</lastmod>
