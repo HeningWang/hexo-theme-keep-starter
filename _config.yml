@@ -106,3 +106,7 @@ deploy:
   repo: https://github.com/HeningWang/my_homepage
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
+
+# Sitemap
+sitemap:
+    path: sitemap.xml
