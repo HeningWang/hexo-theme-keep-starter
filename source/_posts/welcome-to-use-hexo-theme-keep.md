@@ -1,46 +1,21 @@
 ---
-title: Welcome to use Hexo Theme Keep
-date: 2022-10-25 11:40:36
-tags: [Hexo, Keep]
-categories: [Hexo]
+title: Welcome to Hening Wang's Homepage!
+date: 2024-04-25 11:40:36
+sticky: 9999
 ---
 
-Welcome to use Hexo Theme Keep.
+# ME IN 10 SECONDS:
 
-This is your very first post. Check [documentation](https://keep-docs.xpoet.cn/) for more info. If you get any problems when using Keep theme, you can ask me on [GitHub](https://github.com/XPoet/hexo-theme-keep/issues).
+Currently a first-year PhD student in General Linguistics at the University of Tübingen. 
 
-<!-- more -->
+Working titel of the PhD project: Understand Pragmatic Reasoning in Causal Relationships using Bayesian Language Models
 
-## Quick Start
+Supervisors: Prof. Dr. Michael Franke, Dr. Fabian Schlotterbeck
 
-### Create a new post
+Research interests: Cognitive Modeling, Semantics and Pragmatics, Psycholinguistics
 
-``` bash
-$ hexo new "My New Post"
-```
+See more about projects that I'm currently working on [here](/my_homepage/now/).
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+See more about me and my background [here](/my_homepage/about/index.html).
 
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+Contact me: hening.wang@uni-tuebingen.de or hening.wang@outlook.com

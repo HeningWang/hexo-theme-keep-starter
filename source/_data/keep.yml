@@ -12,10 +12,10 @@ base_info:
   primary_color: "#0066cc"
 
   # Blog website title
-  title: Keep Theme
+  title: Hening Wang's Homepage
 
   # Blog website author name
-  author: Keep Team
+  author: Hening Wang
 
   # Author avatar, You can use local image path or image link
   avatar: /images/avatar.svg
@@ -34,10 +34,10 @@ base_info:
 # e.g. to enable categories, you need to execute `hexo new page categories`
 # Use `||` to set icon for navigation menu, e.g. `home: / || fa-solid fa-home`
 menu:
-  home: /homepage                       # || fa-solid fa-home
-  archives: /archives           # || fa-solid fa-box-archive
-  tags: /tags                   # || fa-solid fa-tags
-  categories: /categories       # || fa-solid fa-layer-group
+  home: /homepage               / || fa-solid fa-home
+  archives: /archives           / || fa-solid fa-box-archive
+  tags: /tags                   / || fa-solid fa-tags
+  categories: /categories       / || fa-solid fa-layer-group
   # links: /links               # || fa-solid fa-link
   # photos: /photos             # || fa-solid fa-image
   # tools: /tools               # || fa-solid fa-tools
