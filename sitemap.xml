@@ -2,16 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://heningwang.github.io/my_homepage/homepage/googlee6edfc5f795da21a.html</loc>
-    
-    <lastmod>2024-04-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://heningwang.github.io/my_homepage/homepage/index.html</loc>
+    <loc>https://heningwang.github.io/my_homepage/homepage/2024/04/25/welcome-to-use-hexo-theme-keep/</loc>
     
     <lastmod>2024-04-22</lastmod>
     
@@ -29,7 +20,16 @@
   </url>
   
   <url>
-    <loc>https://heningwang.github.io/my_homepage/homepage/2022/10/25/welcome-to-use-hexo-theme-keep/</loc>
+    <loc>https://heningwang.github.io/my_homepage/homepage/googlee6edfc5f795da21a.html</loc>
+    
+    <lastmod>2024-04-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heningwang.github.io/my_homepage/homepage/index.html</loc>
     
     <lastmod>2024-04-22</lastmod>
     
@@ -64,27 +64,6 @@
   </url>
 
   
-  <url>
-    <loc>https://heningwang.github.io/my_homepage/homepage/tags/Hexo/</loc>
-    <lastmod>2024-04-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://heningwang.github.io/my_homepage/homepage/tags/Keep/</loc>
-    <lastmod>2024-04-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
-  
-  <url>
-    <loc>https://heningwang.github.io/my_homepage/homepage/categories/Hexo/</loc>
-    <lastmod>2024-04-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
 </urlset>

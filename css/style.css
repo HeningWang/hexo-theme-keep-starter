@@ -3047,7 +3047,7 @@ figure.highlight .shrink-line:hover::before {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-image: url("/images/bg.svg");
+  background-image: url("/my_homepage/homepage/images/bg.svg");
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
@@ -3055,7 +3055,7 @@ figure.highlight .shrink-line:hover::before {
   background-repeat-y: no-repeat;
 }
 .dark-mode .first-screen-container {
-  background-image: url("/images/bg.svg");
+  background-image: url("/my_homepage/homepage/images/bg.svg");
 }
 .first-screen-container .first-screen-content {
   display: flex;
@@ -3807,7 +3807,6 @@ figure.highlight .shrink-line:hover::before {
   color: var(--text-color-3);
   text-align: justify;
   word-wrap: break-word;
-  border-bottom: 2px dashed var(--border-color);
 }
 @media (max-width: 800px) {
   .post-page-container .post-content-container .post-content-bottom .post-content {
