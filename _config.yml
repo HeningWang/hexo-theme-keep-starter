@@ -105,7 +105,7 @@ deploy:
   type: git
   repo: https://github.com/HeningWang/my_homepage.git
   # example, https://github.com/hexojs/hexojs.github.io
-  branch: main
+  branch: gh-pages
 
 # Sitemap
 sitemap:
