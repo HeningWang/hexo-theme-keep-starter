@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Keep
-subtitle: Hexo theme keep quick starter
+title: Hening Wang's Homepage
+subtitle: A blog about acedemia, life and everything.
 description: ''
-keywords:
-author: Keep Team
+keywords: Hening Wang
+author: Hening Wang
 language: en  # en | zh-CN | zh-TW
 timezone: ''
 
@@ -103,3 +103,10 @@ theme: keep
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+  
+# URL
+root: /
+
+# Extensions
+exclude_generator:
+  - index
