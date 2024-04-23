@@ -34,15 +34,15 @@ base_info:
 # e.g. to enable categories, you need to execute `hexo new page categories`
 # Use `||` to set icon for navigation menu, e.g. `home: / || fa-solid fa-home`
 menu:
-  home: /homepage               / || fa-solid fa-home
-  archives: /archives           / || fa-solid fa-box-archive
-  tags: /tags                   / || fa-solid fa-tags
-  categories: /categories       / || fa-solid fa-layer-group
+  home: /|| fa-solid fa-home
+  posts: /archives|| fa-solid fa-box-archive
+  #tags: /tags                   / || fa-solid fa-tags
+  #categories: /categories       / || fa-solid fa-layer-group
   # links: /links               # || fa-solid fa-link
   # photos: /photos             # || fa-solid fa-image
   # tools: /tools               # || fa-solid fa-tools
-  # about: /about               # || fa-solid fa-user-graduate
-  # ......
+  about: /about                || fa-solid fa-user-graduate
+  now: /now                    || fa-solid fa-clock
 
 
 # ---------------------------------------------------------------------------------------
