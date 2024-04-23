@@ -9,7 +9,7 @@
     
     <title>
         
-            Archive |
+            How to hide posts in hexo |
         
         Hening Wang&#39;s Homepage
     </title>
@@ -95,7 +95,7 @@
                     
                         
                         <li class="menu-item">
-                            <a class="active"
+                            <a class=""
                                href="/my_homepage/archives"
                             >
                                 
@@ -159,7 +159,7 @@
             
                 
                 <li class="drawer-menu-item flex-center">
-                    <a class="active"
+                    <a class=""
                        href="/my_homepage/archives"
                     >POSTS</a>
                 </li>
@@ -193,59 +193,171 @@
             <div class="main-content border-box">
                 
 
-                    <div class="fade-in-down-animation">
-    <div class="archives-container">
-        <div class="archives-timeline border-box">
+                    
+<div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+        <div class="post-content-container border-box">
             
-<div class="archive-list-container border-box">
-    
-        <section class="archive-item border-box">
-            <div class="archive-item-header border-box">
-                <span class="archive-year">2024</span>
-            </div>
-            <ul class="archive-item-body border-box">
+
+            <div class="post-content-bottom border-box">
                 
-                    <li class="post-item border-box">
-                        <span class="post-date border-box">04-23</span>
-                        <a class="post-title border-box text-ellipsis"
-                           href="/my_homepage/posts/ab82646e.html"
-                        >Program for Frankfurt 01.05.2024</a>
-                    </li>
+                    <div class="post-title">
+                        How to hide posts in hexo
+                    </div>
                 
-                    <li class="post-item border-box">
-                        <span class="post-date border-box">04-22</span>
-                        <a class="post-title border-box text-ellipsis"
-                           href="/my_homepage/posts/f7b96e5d.html"
-                        >How to add Google search console to hexo blog</a>
-                    </li>
+
                 
-            </ul>
-        </section>
-    
-        <section class="archive-item border-box">
-            <div class="archive-item-header border-box">
-                <span class="archive-year">2022</span>
-            </div>
-            <ul class="archive-item-body border-box">
-                
-                    <li class="post-item border-box">
-                        <span class="post-date border-box">08-21</span>
-                        <a class="post-title border-box text-ellipsis"
-                           href="/my_homepage/posts/6ebefd84.html"
-                        >How to hide posts in hexo</a>
-                    </li>
-                
-            </ul>
-        </section>
+                    <div class="post-header border-box">
+                        
+                            <div class="avatar-box border-box">
+                                <img src="/my_homepage/images/avatar.svg">
+                            </div>
+                        
+                        <div class="info-box">
+                            <div class="author border-box">
+                                <span class="name">Hening Wang</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="post-meta-info-container border-box post">
+    <div class="post-meta-info border-box">
+        
+
+        
+            <span class="meta-info-item post-create-date">
+                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
+                <span class="datetime">2022-08-21 11:16:56</span>
+            </span>
+
+            <span class="meta-info-item post-update-date">
+                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                <span class="datetime" data-updated="Tue Apr 23 2024 19:52:37 GMT+0200">2024-04-23 19:52:37</span>
+            </span>
+        
+
+        
+
+        
+            <span class="post-tag meta-info-item border-box">
+                <ul class="post-tag-ul">
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/my_homepage/tags/hexo/">hexo</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+        
+            <span class="meta-info-item post-wordcount">
+                <i class="icon fas fa-file-word"></i>&nbsp;<span>210 Words</span>
+            </span>
+        
+        
+            <span class="meta-info-item post-min2read">
+                <i class="icon fas fa-clock"></i>&nbsp;<span>1 Mins</span>
+            </span>
+        
+        
+            <span class="meta-info-item post-pv">
+                <i class="icon fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+            </span>
+        
+    </div>
+
     
 </div>
 
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="post-content keep-markdown-body">
+                    
+
+                    <h1 id="How-to-hide-posts-in-hexo"><a href="#How-to-hide-posts-in-hexo" class="headerlink" title="How to hide posts in hexo"></a>How to hide posts in hexo</h1><p>Sometimes, we want to keep certain posts invisible to the public, but still traceable in the source folder for later use.</p>
+<h2 id="Move-files-to-drafts-folder"><a href="#Move-files-to-drafts-folder" class="headerlink" title="Move files to _drafts folder"></a>Move files to _drafts folder</h2><p>One way for doing that is to move a certain post to _drafts folder. Per default, hexo will not render and generate files in _drafts folder. Later one can use this command to publish it back to _posts folder.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo publish [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="Use-hexo-hide-post-plugin"><a href="#Use-hexo-hide-post-plugin" class="headerlink" title="Use hexo-hide-post plugin"></a>Use hexo-hide-post plugin</h2><h3 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h3><p>Another solution is to install this plugin from github: <a class="link"   target="_blank" rel="noopener" href="https://github.com/prinsss/hexo-hide-posts" >hexo-hide-post<i class="fas fa-external-link-alt"></i></a></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-hide-posts --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="Configuration"><a href="#Configuration" class="headerlink" title="Configuration"></a>Configuration</h3><p>After installation, add configurations in your _config.yml file.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># hexo-hide-posts</span><br><span class="line">hide_posts:</span><br><span class="line">  enable: true</span><br><span class="line">  # Change the filter name to fit your need</span><br><span class="line">  filter: hidden</span><br><span class="line">  # Generators which you want to expose all posts (include hidden ones) to.</span><br><span class="line">  # Common generators: index, tag, category, archive, sitemap, feed, etc.</span><br><span class="line">  public_generators: []</span><br><span class="line">  # Add &quot;noindex&quot; meta tag to prevent hidden posts from being indexed by search engines</span><br><span class="line">  noindex: true</span><br></pre></td></tr></table></figure>
+<p>e.g. Set filter to secret, so you can use secret: true in front-matter instead.</p>
+<h3 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h3><p>Add meta information to the front matter of your post accordingly, e.g.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#x27;Lorem Ipsum&#x27;</span><br><span class="line">date: &#x27;2019/8/10 11:45:14&#x27;</span><br><span class="line">hidden: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+                </div>
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                            <ul class="post-tags-box border-box">
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/my_homepage/tags/hexo/">hexo</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+
+                
+
+                
+                    <div class="post-nav border-box">
+                        
+                            <div class="prev-post">
+                                <a class="prev"
+                                   rel="prev"
+                                   href="/my_homepage/posts/f7b96e5d.html"
+                                   title="How to add Google search console to hexo blog"
+                                >
+                                    <span class="left arrow-icon flex-center">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </span>
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">How to add Google search console to hexo blog</span>
+                                        <span class="post-nav-item">Prev posts</span>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                        
+                    </div>
+                
+
+                
+                    
+
+
+
+
+
+
+                
+            </div>
         </div>
+
+        
+            <div class="pc-post-toc right-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#How-to-hide-posts-in-hexo"><span class="nav-text">How to hide posts in hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Move-files-to-drafts-folder"><span class="nav-text">Move files to _drafts folder</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Use-hexo-hide-post-plugin"><span class="nav-text">Use hexo-hide-post plugin</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Installation"><span class="nav-text">Installation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Configuration"><span class="nav-text">Configuration</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Usage"><span class="nav-text">Usage</span></a></li></ol></li></ol></li></ol>
     </div>
-    
+</div>
 
-
-
+            </div>
+        
+    </div>
 </div>
 
 
@@ -299,6 +411,28 @@
 
     <!-- post tools -->
     
+        <div class="post-tools right-toc">
+            <div class="post-tools-container border-box">
+    <ul class="tools-list border-box">
+        <!-- PC TOC show toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- PC go comment -->
+        
+
+        <!-- PC full screen -->
+        <li class="tools-item flex-center full-screen">
+            <i class="fa-solid fa-expand"></i>
+        </li>
+    </ul>
+</div>
+
+        </div>
+    
 
     <!-- side tools -->
     <div class="side-tools">
@@ -325,6 +459,10 @@
     </ul>
 
     <ul class="exposed-tools-list border-box">
+        
+            <li class="tools-item toggle-show-toc-tablet flex-center">
+                <i class="fas fa-list"></i>
+            </li>
         
 
         
@@ -382,6 +520,17 @@
 
     <!-- tablet toc -->
     
+        <div class="tablet-post-toc-mask">
+            <div class="tablet-post-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#How-to-hide-posts-in-hexo"><span class="nav-text">How to hide posts in hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Move-files-to-drafts-folder"><span class="nav-text">Move files to _drafts folder</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Use-hexo-hide-post-plugin"><span class="nav-text">Use hexo-hide-post plugin</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Installation"><span class="nav-text">Installation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Configuration"><span class="nav-text">Configuration</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Usage"><span class="nav-text">Usage</span></a></li></ol></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        </div>
+    
 </main>
 
 
@@ -418,6 +567,24 @@
 
 
 <div class="pjax">
+    
+        <!-- post-helper -->
+        
+<script src="/my_homepage/js/post/post-helper.js"></script>
+
+
+        <!-- toc -->
+        
+            
+<script src="/my_homepage/js/post/toc.js"></script>
+
+        
+
+        <!-- copyright-info -->
+        
+
+        <!-- share -->
+        
     
 
     <!-- categories page -->

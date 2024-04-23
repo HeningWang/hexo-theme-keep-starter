@@ -9,7 +9,7 @@
     
     <title>
         
-            Category |
+            How to add Google search console to hexo blog |
         
         Hening Wang&#39;s Homepage
     </title>
@@ -202,7 +202,7 @@
             <div class="post-content-bottom border-box">
                 
                     <div class="post-title">
-                        category
+                        How to add Google search console to hexo blog
                     </div>
                 
 
@@ -228,12 +228,12 @@
         
             <span class="meta-info-item post-create-date">
                 <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
-                <span class="datetime">2024-04-23 16:11:17</span>
+                <span class="datetime">2024-04-22 15:33:34</span>
             </span>
 
             <span class="meta-info-item post-update-date">
                 <i class="icon fa-solid fa-file-pen"></i>&nbsp;
-                <span class="datetime" data-updated="Tue Apr 23 2024 16:50:05 GMT+0200">2024-04-23 16:50:05</span>
+                <span class="datetime" data-updated="Tue Apr 23 2024 19:52:57 GMT+0200">2024-04-23 19:52:57</span>
             </span>
         
 
@@ -243,7 +243,7 @@
             <span class="post-tag meta-info-item border-box">
                 <ul class="post-tag-ul">
                     
-                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/my_homepage/tags/abc/">abc</a></li>
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/my_homepage/tags/hexo/">hexo</a></li>
                         
                     
                 </ul>
@@ -251,6 +251,10 @@
         
 
         
+        
+            <span class="meta-info-item post-wordcount">
+                <i class="icon fas fa-file-word"></i>&nbsp;<span>183 Words</span>
+            </span>
         
         
             <span class="meta-info-item post-min2read">
@@ -275,7 +279,28 @@
                 <div class="post-content keep-markdown-body">
                     
 
-                    
+                    <h1 id="Add-Google-Search-Console-GSC-to-hexo-blog"><a href="#Add-Google-Search-Console-GSC-to-hexo-blog" class="headerlink" title="Add Google Search Console (GSC) to hexo blog"></a>Add Google Search Console (GSC) to hexo blog</h1><h2 id="Install-hexo-sitemap"><a href="#Install-hexo-sitemap" class="headerlink" title="Install hexo-sitemap"></a>Install hexo-sitemap</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
+<p>Add configuration to _config.yml</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sitemap:</span><br><span class="line">    path: sitemap.xml</span><br></pre></td></tr></table></figure>
+<p>This will automatically generate a sitemap every time after deploying the website.</p>
+<h2 id="Verify-the-ownership-of-your-site-in-GSC"><a href="#Verify-the-ownership-of-your-site-in-GSC" class="headerlink" title="Verify the ownership of your site in GSC"></a>Verify the ownership of your site in GSC</h2><ol>
+<li>Go to <a class="link"   target="_blank" rel="noopener" href="https://search.google.com/search-console/about" >GSC website<i class="fas fa-external-link-alt"></i></a></li>
+<li>Under URL prefix, enter your homepage URL.<br><img  
+                       lazyload
+                       alt="image"
+                       data-src="/my_homepage/google-search-console/property.png"
+                       
+                 ></li>
+<li>Click Continue</li>
+<li>Use “Recommended verification methods”, i.e HTML file.</li>
+<li>Download the automatically generated .html file.</li>
+<li>Put this .html file into the <em>source</em> folder of your blog. (not _post, not anything, just root <em>source</em> folder)</li>
+<li>!IMPORTANT (This has been a big issue for me) Set layout as false in the frontal info of this .html file, otherwise you will get error with verification.<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># originally:</span><br><span class="line">google-site-verification: googlee6edfc5f795da21a.html</span><br><span class="line"></span><br><span class="line"># now change to:</span><br><span class="line">---</span><br><span class="line">layout: false</span><br><span class="line">---</span><br><span class="line">google-site-verification: googlee6edfc5f795da21a.html</span><br></pre></td></tr></table></figure></li>
+<li>Alternative way for verification is to use HTML tag, see <a class="link"   target="_blank" rel="noopener" href="https://foystor.github.io/2022/08/16/show-hexo-blog-on-google-search/" >this post<i class="fas fa-external-link-alt"></i></a></li>
+<li>Add sitemap.xml to sitemap of GSC</li>
+<li>You are all set! After a while of waiting, tap <em>site: your-blog-address</em> into google search window to check if your blog has been properly tracked by GSC.</li>
+</ol>
+
                 </div>
                 
 
@@ -285,7 +310,7 @@
                             <ul class="post-tags-box border-box">
                                 
                                     <li class="tag-item border-box">
-                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/my_homepage/tags/abc/">abc</a>
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/my_homepage/tags/hexo/">hexo</a>
                                     </li>
                                 
                             </ul>
@@ -304,14 +329,14 @@
                             <div class="prev-post">
                                 <a class="prev"
                                    rel="prev"
-                                   href="/my_homepage/posts/526e97b5.html"
-                                   title="Welcome to Hening Wang&#39;s Homepage!"
+                                   href="/my_homepage/posts/ab82646e.html"
+                                   title="Program for Frankfurt 01.05.2024"
                                 >
                                     <span class="left arrow-icon flex-center">
                                         <i class="fas fa-chevron-left"></i>
                                     </span>
                                     <span class="title flex-center">
-                                        <span class="post-nav-title-item text-ellipsis">Welcome to Hening Wang&#39;s Homepage!</span>
+                                        <span class="post-nav-title-item text-ellipsis">Program for Frankfurt 01.05.2024</span>
                                         <span class="post-nav-item">Prev posts</span>
                                     </span>
                                 </a>
@@ -321,11 +346,11 @@
                             <div class="next-post">
                                 <a class="next"
                                    rel="next"
-                                   href="/my_homepage/posts/ab82646e.html"
-                                   title="Program for Frankfurt 01.05.2024"
+                                   href="/my_homepage/posts/6ebefd84.html"
+                                   title="How to hide posts in hexo"
                                 >
                                     <span class="title flex-center">
-                                        <span class="post-nav-title-item text-ellipsis">Program for Frankfurt 01.05.2024</span>
+                                        <span class="post-nav-title-item text-ellipsis">How to hide posts in hexo</span>
                                         <span class="post-nav-item">Next posts</span>
                                     </span>
                                     <span class="right arrow-icon flex-center">
@@ -353,7 +378,7 @@
             <div class="pc-post-toc right-toc">
                 <div class="post-toc-wrap border-box">
     <div class="post-toc border-box">
-        
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Add-Google-Search-Console-GSC-to-hexo-blog"><span class="nav-text">Add Google Search Console (GSC) to hexo blog</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-hexo-sitemap"><span class="nav-text">Install hexo-sitemap</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Verify-the-ownership-of-your-site-in-GSC"><span class="nav-text">Verify the ownership of your site in GSC</span></a></li></ol></li></ol>
     </div>
 </div>
 
@@ -526,7 +551,7 @@
             <div class="tablet-post-toc">
                 <div class="post-toc-wrap border-box">
     <div class="post-toc border-box">
-        
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Add-Google-Search-Console-GSC-to-hexo-blog"><span class="nav-text">Add Google Search Console (GSC) to hexo blog</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-hexo-sitemap"><span class="nav-text">Install hexo-sitemap</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Verify-the-ownership-of-your-site-in-GSC"><span class="nav-text">Verify the ownership of your site in GSC</span></a></li></ol></li></ol>
     </div>
 </div>
 

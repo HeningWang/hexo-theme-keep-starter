@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://heningwang.github.io/my_homepage/posts/64c19c1.html</loc>
+    <loc>https://heningwang.github.io/my_homepage/posts/f7b96e5d.html</loc>
     
     <lastmod>2024-04-23</lastmod>
     
@@ -20,25 +20,7 @@
   </url>
   
   <url>
-    <loc>https://heningwang.github.io/my_homepage/home/index.html</loc>
-    
-    <lastmod>2024-04-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://heningwang.github.io/my_homepage/archives/index.html</loc>
-    
-    <lastmod>2024-04-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://heningwang.github.io/my_homepage/posts/526e97b5.html</loc>
+    <loc>https://heningwang.github.io/my_homepage/posts/6ebefd84.html</loc>
     
     <lastmod>2024-04-23</lastmod>
     
@@ -56,7 +38,34 @@
   </url>
   
   <url>
+    <loc>https://heningwang.github.io/my_homepage/archives/index.html</loc>
+    
+    <lastmod>2024-04-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heningwang.github.io/my_homepage/home/index.html</loc>
+    
+    <lastmod>2024-04-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://heningwang.github.io/my_homepage/homepage/index.html</loc>
+    
+    <lastmod>2024-04-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heningwang.github.io/my_homepage/now/index.html</loc>
     
     <lastmod>2024-04-23</lastmod>
     
@@ -68,15 +77,6 @@
     <loc>https://heningwang.github.io/my_homepage/about/index.html</loc>
     
     <lastmod>2024-04-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://heningwang.github.io/my_homepage/now/index.html</loc>
-    
-    <lastmod>2024-04-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -110,7 +110,14 @@
 
   
   <url>
-    <loc>https://heningwang.github.io/my_homepage/tags/abc/</loc>
+    <loc>https://heningwang.github.io/my_homepage/tags/Personal/</loc>
+    <lastmod>2024-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heningwang.github.io/my_homepage/tags/hexo/</loc>
     <lastmod>2024-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
