@@ -113,7 +113,7 @@ deploy:
     github: 
       url: https://github.com/HeningWang/my_homepage.git
       branch: gh-pages
-      token: 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
+
 
 # Sitemap
 sitemap:
