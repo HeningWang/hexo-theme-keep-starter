@@ -5,7 +5,7 @@
 # Site
 title: Hening Wang's Homepage
 subtitle: A blog about acedemia, life and everything.
-description: ''
+description: 'init'
 keywords: Hening Wang
 author: Hening Wang
 language: en  # en | zh-CN | zh-TW
@@ -13,12 +13,18 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://heningwang.github.io/my_homepage/homepage
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+url: https://heningwang.github.io/my_homepage/
+
+#permalink: :year/:month/:day/:title/
+#permalink_defaults:
+#pretty_urls:
+#  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+#  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+permalink: posts/:abbrlink.html # See tutorial here: https://adago2x.github.io/posts/43f20bcb.html
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: hex    # 进制：dec(default) and hex
 
 # Directory
 source_dir: source
@@ -103,9 +109,11 @@ theme: keep
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/HeningWang/my_homepage.git
-  # example, https://github.com/hexojs/hexojs.github.io
-  branch: gh-pages
+  repo: 
+    github: 
+      url: https://github.com/HeningWang/my_homepage.git
+      branch: gh-pages
+      token: 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
 
 # Sitemap
 sitemap:
