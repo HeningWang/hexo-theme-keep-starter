@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>How to add Google search console to hexo blog</title>
+    <url>/my_homepage/posts/f7b96e5d.html</url>
+    <content><![CDATA[<h1 id="Add-Google-Search-Console-GSC-to-hexo-blog"><a href="#Add-Google-Search-Console-GSC-to-hexo-blog" class="headerlink" title="Add Google Search Console (GSC) to hexo blog"></a>Add Google Search Console (GSC) to hexo blog</h1><h2 id="Install-hexo-sitemap"><a href="#Install-hexo-sitemap" class="headerlink" title="Install hexo-sitemap"></a>Install hexo-sitemap</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
+<p>Add configuration to _config.yml</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sitemap:</span><br><span class="line">    path: sitemap.xml</span><br></pre></td></tr></table></figure>
+<p>This will automatically generate a sitemap every time after deploying the website.</p>
+<h2 id="Verify-the-ownership-of-your-site-in-GSC"><a href="#Verify-the-ownership-of-your-site-in-GSC" class="headerlink" title="Verify the ownership of your site in GSC"></a>Verify the ownership of your site in GSC</h2><ol>
+<li>Go to <a class="link"   href="https://search.google.com/search-console/about" >GSC website<i class="fas fa-external-link-alt"></i></a></li>
+<li>Under URL prefix, enter your homepage URL.<br><img  
+                       lazyload
+                       alt="image"
+                       data-src="/my_homepage/google-search-console/property.png"
+                       
+                 ></li>
+<li>Click Continue</li>
+<li>Use “Recommended verification methods”, i.e HTML file.</li>
+<li>Download the automatically generated .html file.</li>
+<li>Put this .html file into the <em>source</em> folder of your blog. (not _post, not anything, just root <em>source</em> folder)</li>
+<li>!IMPORTANT (This has been a big issue for me) Set layout as false in the frontal info of this .html file, otherwise you will get error with verification.<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># originally:</span><br><span class="line">google-site-verification: googlee6edfc5f795da21a.html</span><br><span class="line"></span><br><span class="line"># now change to:</span><br><span class="line">---</span><br><span class="line">layout: false</span><br><span class="line">---</span><br><span class="line">google-site-verification: googlee6edfc5f795da21a.html</span><br></pre></td></tr></table></figure></li>
+<li>Alternative way for verification is to use HTML tag, see <a class="link"   href="https://foystor.github.io/2022/08/16/show-hexo-blog-on-google-search/" >this post<i class="fas fa-external-link-alt"></i></a></li>
+<li>Add sitemap.xml to sitemap of GSC</li>
+<li>You are all set! After a while of waiting, tap <em>site: your-blog-address</em> into google search window to check if your blog has been properly tracked by GSC.</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Program for Frankfurt 01.05.2024</title>
     <url>/my_homepage/posts/ab82646e.html</url>
     <content><![CDATA[<h2 id="Program"><a href="#Program" class="headerlink" title="Program"></a>Program</h2><p>5月1号是节假日，所以活动的主体安排在1号，希望大家都能参加1号的活动。考虑到还要上班，2号的活动随缘。早上去领馆的人数也不宜太多，大家可以睡个懒觉，中午来吃饭，之后一起去KTV。</p>
@@ -33,35 +62,6 @@
 ]]></content>
       <tags>
         <tag>Personal</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>How to add Google search console to hexo blog</title>
-    <url>/my_homepage/posts/f7b96e5d.html</url>
-    <content><![CDATA[<h1 id="Add-Google-Search-Console-GSC-to-hexo-blog"><a href="#Add-Google-Search-Console-GSC-to-hexo-blog" class="headerlink" title="Add Google Search Console (GSC) to hexo blog"></a>Add Google Search Console (GSC) to hexo blog</h1><h2 id="Install-hexo-sitemap"><a href="#Install-hexo-sitemap" class="headerlink" title="Install hexo-sitemap"></a>Install hexo-sitemap</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
-<p>Add configuration to _config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sitemap:</span><br><span class="line">    path: sitemap.xml</span><br></pre></td></tr></table></figure>
-<p>This will automatically generate a sitemap every time after deploying the website.</p>
-<h2 id="Verify-the-ownership-of-your-site-in-GSC"><a href="#Verify-the-ownership-of-your-site-in-GSC" class="headerlink" title="Verify the ownership of your site in GSC"></a>Verify the ownership of your site in GSC</h2><ol>
-<li>Go to <a class="link"   href="https://search.google.com/search-console/about" >GSC website<i class="fas fa-external-link-alt"></i></a></li>
-<li>Under URL prefix, enter your homepage URL.<br><img  
-                       lazyload
-                       alt="image"
-                       data-src="/my_homepage/google-search-console/property.png"
-                       
-                 ></li>
-<li>Click Continue</li>
-<li>Use “Recommended verification methods”, i.e HTML file.</li>
-<li>Download the automatically generated .html file.</li>
-<li>Put this .html file into the <em>source</em> folder of your blog. (not _post, not anything, just root <em>source</em> folder)</li>
-<li>!IMPORTANT (This has been a big issue for me) Set layout as false in the frontal info of this .html file, otherwise you will get error with verification.<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># originally:</span><br><span class="line">google-site-verification: googlee6edfc5f795da21a.html</span><br><span class="line"></span><br><span class="line"># now change to:</span><br><span class="line">---</span><br><span class="line">layout: false</span><br><span class="line">---</span><br><span class="line">google-site-verification: googlee6edfc5f795da21a.html</span><br></pre></td></tr></table></figure></li>
-<li>Alternative way for verification is to use HTML tag, see <a class="link"   href="https://foystor.github.io/2022/08/16/show-hexo-blog-on-google-search/" >this post<i class="fas fa-external-link-alt"></i></a></li>
-<li>Add sitemap.xml to sitemap of GSC</li>
-<li>You are all set! After a while of waiting, tap <em>site: your-blog-address</em> into google search window to check if your blog has been properly tracked by GSC.</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>

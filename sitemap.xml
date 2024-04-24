@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://heningwang.github.io/my_homepage/index.html</loc>
+    <loc>https://heningwang.github.io/my_homepage/archives/index.html</loc>
     
     <lastmod>2024-04-23</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://heningwang.github.io/my_homepage/archives/index.html</loc>
+    <loc>https://heningwang.github.io/my_homepage/index.html</loc>
     
     <lastmod>2024-04-23</lastmod>
     
@@ -110,14 +110,14 @@
 
   
   <url>
-    <loc>https://heningwang.github.io/my_homepage/tags/Personal/</loc>
+    <loc>https://heningwang.github.io/my_homepage/tags/hexo/</loc>
     <lastmod>2024-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://heningwang.github.io/my_homepage/tags/hexo/</loc>
+    <loc>https://heningwang.github.io/my_homepage/tags/Personal/</loc>
     <lastmod>2024-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
